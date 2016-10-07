@@ -1,6 +1,6 @@
 import React from 'react'
 
-export class CommentComponent extends React.Component{
+export class CommentComponent extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -23,12 +23,12 @@ export class CommentComponent extends React.Component{
     }
 }
 
-export class MsgComponent extends React.Component{
+export class MsgComponent extends React.Component {
     constructor(props) {
         super(props);
     }
 
-    render () {
+    render() {
         return <div className={this.props.className}>{this.props.msg}</div>;
     }
 }

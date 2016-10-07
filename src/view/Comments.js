@@ -17,7 +17,6 @@ export class CommentsComponent extends React.Component {
 
     componentDidMount() {
         var comments = this.state.comments;
-
         var component = this;
 
         if (component.props.comments) {

@@ -9,13 +9,13 @@ export class Comment {
         this.likes = parseInt(data.likes || 0);
     }
 
-    compareTo(other){
+    compareTo(other) {
         if (this.likes == other.likes)
             return this.updatedOn - other.updatedOn;
         return this.likes - other.likes;
     }
 
-    incrementLikes(){
+    incrementLikes() {
         this.likes++;
     }
 }
